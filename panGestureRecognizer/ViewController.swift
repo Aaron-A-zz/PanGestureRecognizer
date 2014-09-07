@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
                             
-    @IBOutlet weak var myBall: UIView!
-    @IBOutlet weak var my2ndBall: UIView!
+    @IBOutlet weak var spaceShip: UIView!
+    @IBOutlet weak var asteroid: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     @IBOutlet var panRecognizer: UIPanGestureRecognizer!
     @IBAction func handleGesture(sender: AnyObject) {
        let location = sender.locationInView(view)
-        myBall.center = location
+        spaceShip.center = location
 
     }
     
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     @IBOutlet var panRecognizer2: UIPanGestureRecognizer!
     @IBAction func handleGesture2(sender: AnyObject) {
         let location = sender.locationInView(view)
-        my2ndBall.center = location
+        asteroid.center = location
     }
     
     

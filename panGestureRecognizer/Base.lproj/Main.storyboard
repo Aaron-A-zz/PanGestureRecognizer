@@ -19,7 +19,7 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M1q-M5-hO7">
                                 <rect key="frame" x="178" y="197" width="148" height="115"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenBall.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bey-Mf-L9A">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SpaceShip_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Bey-Mf-L9A">
                                         <rect key="frame" x="2" y="0.0" width="145" height="116"/>
                                     </imageView>
                                 </subviews>
@@ -32,7 +32,7 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jXU-ME-Qxx">
                                 <rect key="frame" x="69" y="49" width="98" height="80"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenBall.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tru-ML-QQq">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Astroid_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tru-ML-QQq">
                                         <rect key="frame" x="0.0" y="0.0" width="98" height="80"/>
                                         <gestureRecognizers/>
                                     </imageView>
@@ -51,10 +51,12 @@
                         <size key="landscapeSize" width="568" height="320"/>
                     </simulatedScreenMetrics>
                     <connections>
+                        <outlet property="asteroid" destination="jXU-ME-Qxx" id="ehj-ru-RZ5"/>
                         <outlet property="my2ndBall" destination="jXU-ME-Qxx" id="3mh-82-1WZ"/>
                         <outlet property="myBall" destination="M1q-M5-hO7" id="6WZ-9c-4q1"/>
                         <outlet property="panRecognizer" destination="Xuo-1d-wto" id="N6j-Zu-eCe"/>
                         <outlet property="panRecognizer2" destination="Zuv-sx-BSJ" id="GWj-oq-Kuj"/>
+                        <outlet property="spaceShip" destination="M1q-M5-hO7" id="FKt-yu-PX9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -73,6 +75,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="greenBall.png" width="114" height="115"/>
+        <image name="Astroid_2.png" width="52" height="49"/>
+        <image name="SpaceShip_1.png" width="113" height="60"/>
     </resources>
 </document>

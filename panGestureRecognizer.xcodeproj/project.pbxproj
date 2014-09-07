@@ -13,6 +13,8 @@
 		2145A9C919BCACEC0090F19D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2145A9C819BCACEC0090F19D /* Images.xcassets */; };
 		2145A9D519BCACEC0090F19D /* panGestureRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2145A9D419BCACEC0090F19D /* panGestureRecognizerTests.swift */; };
 		2145A9DF19BCAD740090F19D /* greenBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 2145A9DE19BCAD740090F19D /* greenBall.png */; };
+		2145A9E119BCD4B60090F19D /* SpaceShip_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2145A9E019BCD4B60090F19D /* SpaceShip_1.png */; };
+		2145A9E319BCD4BD0090F19D /* Astroid_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2145A9E219BCD4BD0090F19D /* Astroid_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2145A9D319BCACEC0090F19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2145A9D419BCACEC0090F19D /* panGestureRecognizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = panGestureRecognizerTests.swift; sourceTree = "<group>"; };
 		2145A9DE19BCAD740090F19D /* greenBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenBall.png; sourceTree = "<group>"; };
+		2145A9E019BCD4B60090F19D /* SpaceShip_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpaceShip_1.png; sourceTree = "<group>"; };
+		2145A9E219BCD4BD0090F19D /* Astroid_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Astroid_2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				2145A9C119BCACEC0090F19D /* AppDelegate.swift */,
 				2145A9C319BCACEC0090F19D /* ViewController.swift */,
 				2145A9C519BCACEC0090F19D /* Main.storyboard */,
+				2145A9E019BCD4B60090F19D /* SpaceShip_1.png */,
+				2145A9E219BCD4BD0090F19D /* Astroid_2.png */,
 				2145A9C819BCACEC0090F19D /* Images.xcassets */,
 				2145A9BF19BCACEC0090F19D /* Supporting Files */,
 			);
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2145A9C719BCACEC0090F19D /* Main.storyboard in Resources */,
+				2145A9E319BCD4BD0090F19D /* Astroid_2.png in Resources */,
 				2145A9C919BCACEC0090F19D /* Images.xcassets in Resources */,
+				2145A9E119BCD4B60090F19D /* SpaceShip_1.png in Resources */,
 				2145A9DF19BCAD740090F19D /* greenBall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +407,7 @@
 				2145A9DA19BCACEC0090F19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2145A9DB19BCACEC0090F19D /* Build configuration list for PBXNativeTarget "panGestureRecognizerTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +416,7 @@
 				2145A9DD19BCACEC0090F19D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
